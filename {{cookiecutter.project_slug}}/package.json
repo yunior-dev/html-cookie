@@ -1,0 +1,25 @@
+{
+  "name": "{{cookiecutter.project_slug}}",
+  "version": "1.0.0",
+  "description": "{{cookiecutter.description}}",
+  "author": "{{cookiecutter.author_name}}",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.2",
+    "cross-env": "^7.0.2",
+    "jquery": "^3.5",
+    "laravel-mix": "^5.0.5",
+    "lodash": "^4.17.20",
+    "popper.js": "^1.16",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

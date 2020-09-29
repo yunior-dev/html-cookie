@@ -1,0 +1,6 @@
+{
+  "project_name": "My Project",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('.', '-')|trim() }}",
+  "description": "{{ cookiecutter.project_name }} website mock up theme.",
+  "author_name": "Yunior Espinal"
+}
