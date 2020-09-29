@@ -11,6 +11,6 @@ const mix = require('laravel-mix')
  |
  */
 
-mix.js('js/app.js', 'dist/js').sass('sass/app.scss', ',dist/css').options({
+mix.js('js/app.js', 'dist/js').sass('sass/app.scss', 'dist/css').options({
   processCssUrls: false,
 })
