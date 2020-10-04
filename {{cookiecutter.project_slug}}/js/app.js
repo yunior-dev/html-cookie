@@ -11,7 +11,7 @@ try {
   window.$ = window.jQuery = require('jquery')
 
   require('bootstrap')
-  require('mdbootstrap-pro')
+  //require('mdbootstrap-pro')
 } catch (e) {}
 
 /**
