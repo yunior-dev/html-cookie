@@ -1,8 +1,11 @@
-// Variables
-@import 'variables';
+// Custom Variables
+@import 'custom-variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 // MDBootstrap
 // @import '~mdbootstrap-pro/scss/mdb-pro';
+
+// Custom Styles
+@import 'custom-styles';
